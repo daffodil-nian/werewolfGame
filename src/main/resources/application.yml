@@ -10,7 +10,7 @@ server:
 #      service: ${ai.model.deepseek.service}
 llm:
   service: dashscope # dashscope?zhipuai?openai
-  api_key: sk-65ecfffa33b7467f8ee5a76d01eaf574
+  api_key: 自己的api
   model_name: deepseek-v4-pro
   temperature: 0.7
 #  endpoint: ${ai.model.deepseek.endpoint}
