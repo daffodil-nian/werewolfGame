@@ -1,0 +1,24 @@
+server:
+  port: 8085
+
+#ai:
+#  models:
+#    - id: ${ai.model.deepseek.modelId}
+#      name: ${ai.model.deepseek.name}
+#      apiKey: ${ai.model.deepseek.apiKey}
+#      modelName: ${ai.model.deepseek.modelName}
+#      service: ${ai.model.deepseek.service}
+llm:
+  service: dashscope # dashscope?zhipuai?openai
+  api_key: sk-65ecfffa33b7467f8ee5a76d01eaf574
+  model_name: deepseek-v4-pro
+  temperature: 0.7
+#  endpoint: ${ai.model.deepseek.endpoint}
+
+knife4j:
+  enable: true
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
